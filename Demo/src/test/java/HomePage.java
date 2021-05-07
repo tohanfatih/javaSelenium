@@ -34,8 +34,8 @@ public class HomePage{
             System.out.println("Login page does not loaded successfully");
         }
 
-        driver.findElement(By.xpath("//input[@id='txtUserName']")).sendKeys("tohanfatih@hotmail.com");
-        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("Tohan123");
+        driver.findElement(By.xpath("//input[@id='txtUserName']")).sendKeys("******@hotmail.com");
+        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("*****");
         driver.findElement(By.xpath("//button[@id='btnLogin']")).click();
         Thread.sleep(6000);
         driver.findElement(By.xpath("//input[@class='desktopOldAutosuggestTheme-input']")).sendKeys("samsung");
